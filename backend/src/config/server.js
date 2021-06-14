@@ -11,7 +11,7 @@ server.use(bodyParser.json())
 server.use(allowCors)
 server.use(queryParser())
 
-server.listen(port, function () {
+server.listen(port, function() {
     console.log(`BACKEND is running on port ${port}.`)
 })
 

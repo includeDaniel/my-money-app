@@ -4,7 +4,7 @@ const nodeRestful = require('node-restful')
 module.exports = (req, res, next) => {
     const bundle = res.locals.bundle
 
-    if (bundle.erros) {
+    if (bundle.errors) {
         const errors = parseErrors(bundle.errors)
         res.status(500).json({ errors })
     } else {
