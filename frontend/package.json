@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "admin-lte": "2.3.6",
     "babel-core": "6.22.1",
     "babel-loader": "6.2.10",
     "babel-plugin-react-html-attrs": "2.0.0",
@@ -19,6 +20,8 @@
     "css-loader": "0.26.1",
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.9.0",
+    "font-awesome": "4.7.0",
+    "ionicons": "3.0.0",
     "style-loader": "0.13.1",
     "webpack": "1.14.0",
     "webpack-dev-server": "1.16.2"
